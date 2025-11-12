@@ -31,8 +31,12 @@ To write a Python program that:
    - For each element in the stack, print the index and the value at that index.
 
 ## 📝 Program
-Add Code here
-
+      stack = ['a', 'b', 'c']
+      print(f"Stack: {stack}")
+      for i, val in enumerate(stack):
+          print(f"Index {i}: {val}")
 ## Sample Input & Output
+![image](https://github.com/user-attachments/assets/af518f76-122f-45d7-8f43-5f8c9caefa0b)
 
 ## Result
+Thus, the program that Creates a stack using a list, Adds elements to the stack, Prints the index values of the stack elements along with the corresponding values is verified and executed succesfully.
