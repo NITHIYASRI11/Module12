@@ -31,8 +31,21 @@ To write a Python program that:
 ---
 
 ## Program
-Add Code Here
+      queue = []
+      elements = input().split()
+      for element in elements:
+          queue.append(element)
+      
+      print(queue)
+      
+      if queue:
+          deleted = queue.pop(0)
+          print(deleted)
+      
+      print(queue)
 
 ## Output
+![image](https://github.com/user-attachments/assets/8d01e807-b022-4293-ae16-e39561744a87)
 
 ## Result
+Thus, the program that Inserts elements into a queue, Displays all inserted elements, Deletes the first element, Displays the updated queue after deletion is executed and verified successfully.
